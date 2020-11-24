@@ -33,7 +33,7 @@
     "build:examples": "webpack --mode production",
     "deploy:examples": "gh-pages -d examples/dist",
     "publish:examples": "npm run build:examples && npm run deploy:examples",
-    "postinstall": "cd ./node_modules/react-toast-notifications && npm install && npm run build"
+    "postinstall": "npm install && npm run build"
   },
   "prettier": {
     "proseWrap": "preserve",
