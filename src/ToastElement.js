@@ -99,6 +99,9 @@ const Content = props => (
       lineHeight: 1.4,
       minHeight: 40,
       padding: `${gutter}px ${gutter * 1.5}px`,
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center'
     }}
     {...props}
   />
@@ -144,6 +147,9 @@ const Icon = ({ appearance, autoDismiss, autoDismissTimeout, isRunning }) => {
         overflow: 'hidden',
         textAlign: 'center',
         width: 30,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
       }}
     >
       <Countdown

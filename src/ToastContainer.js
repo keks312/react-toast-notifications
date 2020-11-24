@@ -37,7 +37,8 @@ export const ToastContainer = ({
       padding: gutter,
       pointerEvents: hasToasts ? null : 'none',
       position: 'fixed',
-      zIndex: 1000,
+      zIndex: 999999,
+      width: '100vw'
       ...placements[placement],
     }}
     {...props}
